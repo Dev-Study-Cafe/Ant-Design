@@ -1,11 +1,12 @@
 import styled from "styled-components";
-import { HOME } from "../navigation/CONSTANTS";
+import { BUTTON, HOME, TYPOGRAPHY } from "../navigation/CONSTANTS";
 
 const SContainer = styled.div`
-  margin-top: 10px;
-  margin-left: 10px;
+  margin: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
+  border: 1px solid black;
 `;
 
 const SLink = styled.a`
@@ -16,7 +17,9 @@ const SLink = styled.a`
 const Navigation = () => {
   return (
     <SContainer>
-      <SLink href={HOME}>HOME</SLink>
+      <SLink href={HOME}>Home</SLink>
+      <SLink href={BUTTON}>Button</SLink>
+      <SLink href={TYPOGRAPHY}>Typography</SLink>
     </SContainer>
   )
 };
