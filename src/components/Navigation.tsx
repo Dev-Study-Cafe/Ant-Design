@@ -5,12 +5,13 @@ const SContainer = styled.div`
   margin: 10px;
   padding: 5px;
   display: flex;
-  flex-direction: column;
   border: 1px solid black;
+  flex-wrap: wrap;
 `;
 
 const SLink = styled.a`
-  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
   color: blue;
 `;
 
