@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BUTTON, HOME, ICON, TYPOGRAPHY } from "../navigation/CONSTANTS";
+import { BUTTON, DIVIDER, HOME, ICON, TYPOGRAPHY } from "../navigation/CONSTANTS";
 
 const SContainer = styled.div`
   margin: 10px;
@@ -44,6 +44,7 @@ const Navigation = () => {
       
       <SRowContainer>
         <SCategory>Layout</SCategory>
+        <SLink href={DIVIDER}>Divider</SLink>
       </SRowContainer>
     </SContainer>
   )

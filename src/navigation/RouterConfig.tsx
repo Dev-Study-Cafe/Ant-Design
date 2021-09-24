@@ -5,8 +5,8 @@ import {
   Redirect
 } from 'react-router-dom';
 import Navigation from '../components/Navigation';
-import { BUTTON, HOME, ICON, TYPOGRAPHY } from './CONSTANTS';
-import { Button, Icon, Typography } from '../components/antd';
+import { BUTTON, DIVIDER, HOME, ICON, TYPOGRAPHY } from './CONSTANTS';
+import { Button, Divider, Icon, Typography } from '../components/antd';
 
 const RouterConfig = () => {
   return (
@@ -19,6 +19,9 @@ const RouterConfig = () => {
         <Route exact path={BUTTON} component={Button} />
         <Route exact path={ICON} component={Icon} />
         <Route exact path={TYPOGRAPHY} component={Typography} />
+
+        {/* Layout */}
+        <Route exact path={DIVIDER} component={Divider} />
 
         <Redirect path="*" to={HOME} />
       </Switch>
