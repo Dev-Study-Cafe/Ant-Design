@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { BUTTON, HOME, TYPOGRAPHY } from "../navigation/CONSTANTS";
+import { BUTTON, HOME, ICON, TYPOGRAPHY } from "../navigation/CONSTANTS";
 
 const SContainer = styled.div`
   margin: 10px;
@@ -19,7 +19,10 @@ const Navigation = () => {
   return (
     <SContainer>
       <SLink href={HOME}>Home</SLink>
+
+      {/* General */}
       <SLink href={BUTTON}>Button</SLink>
+      <SLink href={ICON}>Icon</SLink>
       <SLink href={TYPOGRAPHY}>Typography</SLink>
     </SContainer>
   )

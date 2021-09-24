@@ -1,7 +1,10 @@
-import AntdButton from './AntdButton';
-import AntdTypography from './AntdTypography';
+import AntdButton from './general/AntdButton';
+import AntdTypography from './general/AntdTypography';
+import AntdIcon from './general/AntdIcon';
 
 export {
+  // general
   AntdButton as Button,
-  AntdTypography as Typography
+  AntdIcon as Icon,
+  AntdTypography as Typography,
 };

@@ -30,4 +30,4 @@ const AntdTypography = () => {
   )
 };
 
-export default AntdTypography
+export default AntdTypography;
